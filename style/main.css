@@ -573,7 +573,18 @@ hr {
   display: block;
   text-align: center;
   float: right; }
-
+.history-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: right; }
 .game-explanation {
   margin-top: 50px; }
 
@@ -613,7 +624,12 @@ hr {
     display: block;
     box-sizing: border-box;
     margin-top: 2px; }
-
+.history-button {
+    width: 42%;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 2px; }
   .game-container {
     margin-top: 17px;
     position: relative;
@@ -729,6 +745,11 @@ hr {
     -moz-transform: translate(0px, 202px);
     -ms-transform: translate(0px, 202px);
     transform: translate(0px, 202px); }
+  .tile.tile-position-1-5 {
+    -webkit-transform: translate(0px, 270px);
+    -moz-transform: translate(0px, 270px);
+    -ms-transform: translate(0px, 270px);
+    transform: translate(0px, 270px); }
   .tile.tile-position-2-1 {
     -webkit-transform: translate(67px, 0px);
     -moz-transform: translate(67px, 0px);
@@ -749,6 +770,12 @@ hr {
     -moz-transform: translate(67px, 202px);
     -ms-transform: translate(67px, 202px);
     transform: translate(67px, 202px); }
+ .tile.tile-position-2-5 {
+    -webkit-transform: translate(67px, 270px);
+    -moz-transform: translate(67px, 270px);
+    -ms-transform: translate(67px, 270px);
+    transform: translate(67px, 270px); }
+
   .tile.tile-position-3-1 {
     -webkit-transform: translate(135px, 0px);
     -moz-transform: translate(135px, 0px);
@@ -769,6 +796,11 @@ hr {
     -moz-transform: translate(135px, 202px);
     -ms-transform: translate(135px, 202px);
     transform: translate(135px, 202px); }
+.tile.tile-position-3-5 {
+    -webkit-transform: translate(135px, 270px);
+    -moz-transform: translate(135px, 270px);
+    -ms-transform: translate(135px, 270px);
+    transform: translate(135px, 270px); }
   .tile.tile-position-4-1 {
     -webkit-transform: translate(202px, 0px);
     -moz-transform: translate(202px, 0px);
@@ -789,6 +821,36 @@ hr {
     -moz-transform: translate(202px, 202px);
     -ms-transform: translate(202px, 202px);
     transform: translate(202px, 202px); }
+  .tile.tile-position-4-5 {
+    -webkit-transform: translate(202px, 270px);
+    -moz-transform: translate(202px, 270px);
+    -ms-transform: translate(202px, 270px);
+    transform: translate(202px, 270px); }
+ .tile.tile-position-5-1 {
+    -webkit-transform: translate(270px, 0px);
+    -moz-transform: translate(270px, 0px);
+    -ms-transform: translate(270px, 0px);
+    transform: translate(270px, 0px); }
+.tile.tile-position-5-2 {
+    -webkit-transform: translate(270px, 67px);
+    -moz-transform: translate(270px, 67px);
+    -ms-transform: translate(270px, 67px);
+    transform: translate(270px, 67px); }
+.tile.tile-position-5-3 {
+    -webkit-transform: translate(270px, 135px);
+    -moz-transform: translate(270px, 135px);
+    -ms-transform: translate(270px, 135px);
+    transform: translate(270px, 135px); }
+.tile.tile-position-5-4 {
+    -webkit-transform: translate(270px, 202px);
+    -moz-transform: translate(270px, 202px);
+    -ms-transform: translate(270px, 202px);
+    transform: translate(270px, 202px); }
+.tile.tile-position-5-5 {
+    -webkit-transform: translate(270px, 270px);
+    -moz-transform: translate(270px, 270px);
+    -ms-transform: translate(270px, 270px);
+    transform: translate(270px, 270px); }
 
   .tile .tile-inner {
     font-size: 35px; }
